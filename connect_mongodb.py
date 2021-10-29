@@ -54,7 +54,7 @@ class Mongodb:
 
     def create_collection(self, collection_name):
         """
-        Function create_ table is used to create a new table
+        create_collection function is used to create a new connection
         Parameters:
 
         ->collection_name: name of the collection
@@ -67,7 +67,7 @@ class Mongodb:
 
     def insert(self, collection_name, record):
         """
-        Insert function is used to insert value in the table
+        insert function is used to insert value in the table
 
         Parameters:
 
