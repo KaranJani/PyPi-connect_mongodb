@@ -47,7 +47,7 @@ To install pymongo, run below command
 
 ### Create Collection
 ```con.create_collection(collection_name)```    
-        Function create_collection is used to create a new collection    
+        create_collection function is used to create a new collection    
          
         Parameters:   
 
@@ -56,7 +56,7 @@ To install pymongo, run below command
 
 ### Record Insertion
 ```con.insert(collection_name, record)```  
-        Insert function is used to insert value in the table  
+        insert function is used to insert value in the table  
 
         Parameters:  
 
