@@ -41,12 +41,12 @@ To install pymongo, run below command
         
         
 #### Check existing Database
-```con.available_database()```   
+```con.available_database()```    
         available_database function returns list of all the existing database
         
 
 #### Create Collection
-```con.create_collection(collection_name)```
+```con.create_collection(collection_name)``` 
         Function create_collection is used to create a new collection
         Parameters:
 
@@ -54,7 +54,7 @@ To install pymongo, run below command
      
 
 #### Record Insertion
-```con.insert(collection_name, record)```
+```con.insert(collection_name, record)``` 
         Insert function is used to insert value in the table
 
         Parameters:
@@ -66,7 +66,7 @@ To install pymongo, run below command
         
 
 #### Finding Records
-```con.find(collection_name)```
+```con.find(collection_name)```  
         find function is used find all the records in a collection
 
         Parameters:
@@ -75,7 +75,7 @@ To install pymongo, run below command
         
         
 #### Updating a Record
-```con.update(self, collection_name, present_record, new_record))```
+```con.update(self, collection_name, present_record, new_record))```  
         update function is used to alter/update the record
 
         Parameters:
@@ -88,7 +88,7 @@ To install pymongo, run below command
         
     
 #### Delete
-```con.delete(collection_name,query)```
+```con.delete(collection_name,query)```  
         delete function is used to delete record from collection
 
         Parameters:
@@ -99,7 +99,7 @@ To install pymongo, run below command
         
 
 #### Drop a Connection
-```con.drop_collection(self, collection_name)```
+```con.drop_collection(self, collection_name)```  
         drop_collection function is used to drop the collection
 
         Parameters:
