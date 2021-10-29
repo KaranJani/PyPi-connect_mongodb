@@ -3,12 +3,6 @@ import pymongo
 
 class Mongodb:
 
-    def __init__(self):
-        """
-        init function
-        """
-        self.database = ""
-
     def connection(self, connection_url, database_name=None):
         """
         connection function establishes a connection with mongo server
