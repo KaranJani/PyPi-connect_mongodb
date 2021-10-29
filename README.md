@@ -48,6 +48,7 @@ To install pymongo, run below command
 ### Create Collection
 ```con.create_collection(collection_name)```    
         Function create_collection is used to create a new collection    
+         
         Parameters:   
 
         ->collection_name: name of the collection
