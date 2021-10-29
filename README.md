@@ -16,11 +16,11 @@ To install pymongo, run below command
 ```pip install pymongo```
 
 
-#### Import
+### Import
 ```from connect_mongodb import Mongodb```
 
 
-#### Connect to Mongodb
+### Connect to Mongodb
 ```con=Mongodb()``` 
 ```con.connection(connection_url, database_name=None)```  
         connection function establishes a connection with mongo server
@@ -31,7 +31,7 @@ To install pymongo, run below command
         database_name(optional): name of the database
         
     
-#### Create Database
+### Create Database
 ```con.create_database(database_name)```   
         create_database function helps to create a new database
 
@@ -40,20 +40,20 @@ To install pymongo, run below command
         ->database_name: name of the database
         
         
-#### Check existing Database
+### Check existing Database
 ```con.available_database()```    
         available_database function returns list of all the existing database
         
 
-#### Create Collection
-```con.create_collection(collection_name)``` 
-        Function create_collection is used to create a new collection
-        Parameters:
+### Create Collection
+```con.create_collection(collection_name)```   
+        Function create_collection is used to create a new collection   
+        Parameters:  
 
         ->collection_name: name of the collection
      
 
-#### Record Insertion
+### Record Insertion
 ```con.insert(collection_name, record)``` 
         Insert function is used to insert value in the table
 
@@ -65,7 +65,7 @@ To install pymongo, run below command
             -to insert many record datatype should be list
         
 
-#### Finding Records
+### Finding Records
 ```con.find(collection_name)```  
         find function is used find all the records in a collection
 
@@ -74,7 +74,7 @@ To install pymongo, run below command
         ->collection_name: name of the collection
         
         
-#### Updating a Record
+### Updating a Record
 ```con.update(self, collection_name, present_record, new_record))```  
         update function is used to alter/update the record
 
@@ -87,7 +87,7 @@ To install pymongo, run below command
             -datatype as dict
         
     
-#### Delete
+### Delete
 ```con.delete(collection_name,query)```  
         delete function is used to delete record from collection
 
@@ -98,7 +98,7 @@ To install pymongo, run below command
             -datatype as dictionary
         
 
-#### Drop a Connection
+### Drop a Connection
 ```con.drop_collection(self, collection_name)```  
         drop_collection function is used to drop the collection
 
