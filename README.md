@@ -7,7 +7,7 @@ Run below commandto install whole package
 
 ```pip install connect_mongodb```
 
-#### Prerequisite
+### Prerequisite
 pymongo must be installed
 To install pymongo, run below command
 
@@ -17,16 +17,16 @@ To install pymongo, run below command
 ```from connect_mongodb import Mongodb```
 
 #### Connect to Mongodb
-```con=Mongodb()```
+```con=Mongodb()``` 
 ```con.connection(connection_url, database_name=None)```
-        """
+        
         connection function establishes a connection with mongo server
 
         Parameters:
 
         ->connection_url: connection url with password
         database_name(optional): name of the database
-        """
+        
     
 #### Create Database
 ```con.create_database(database_name)```   
