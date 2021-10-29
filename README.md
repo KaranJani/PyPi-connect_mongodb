@@ -17,7 +17,7 @@ To install pymongo, run below command
 ```from connect_mongodb import Mongodb```
 
 #### Connect to Mongodb
-```con=Mongodb()``
+```con=Mongodb()```
 ```con.connection(connection_url, database_name=None)```
         """
         connection function establishes a connection with mongo server
